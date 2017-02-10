@@ -1,0 +1,31 @@
+{
+  "works": [
+    {
+      "company": "Vimond",
+      "url": "http://www.vimond.com/",
+      "role": "Software Engineer",
+      "date": "June 2015 - Presently",
+      "place": "Bergen, Norway"
+    },
+    {
+      "company": "TV 2",
+      "url": "http://www.tv2.no/",
+      "role": "Software Engineer",
+      "date": "March 2011 - June 2015",
+      "place": "Bergen, Norway"
+    },
+    {
+      "company": "AGR",
+      "url": "http://www.agrfoodmarketing.com/",
+      "role": "ICT Manager",
+      "date": "May 2009 – July 2011",
+      "place": "Valencia, Spain"
+    },
+    {
+      "company": "BSO",
+      "role": "Manager",
+      "date": "Nov. 2008 – April 2009",
+      "place": "Valencia, Spain"
+    }
+  ]
+}

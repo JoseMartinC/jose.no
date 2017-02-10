@@ -1,0 +1,41 @@
+{
+  "text": "I love to learn, and it matches perfectly with the never ending learning process of engineering, so thanks to this combination, I've studied a lot of things in my life, some useful, some not... But if I had to find a set of keywords of what I've been doing lately, it would be something like this:",
+  "skills": [
+    {
+      "title": "Frontend",
+      "technologies": ["HTML", "CSS/SCSS", "JavaScript", "React", "Riot", "Angular", "Backbone"]
+    },
+    {
+      "title": "Backend",
+      "technologies": ["Node", "Java", "PHP"]
+    },
+    {
+      "title": "Design",
+      "technologies": ["Illustrator", "Photoshop", "Balsamiq", "Zeplin"]
+    },
+    {
+      "title": "Dataflow",
+      "technologies": ["Flux/Redux", "SQL", "MongoDB"]
+    },
+    {
+      "title": "3D",
+      "technologies": ["OpenGL/WebGL", "SketchUp", "Blender", "Rhinoceros"]
+    },
+    {
+      "title": "Industrial Computing",
+      "technologies": ["CNC", "CAD/CAM"]
+    },
+    {
+      "title": "DevOps",
+      "technologies": ["Amazon Web Services", "Docker", "Heroku"]
+    },
+    {
+      "title": "QA",
+      "technologies": ["Selenium", "Chai", "Mocha"]
+    },
+    {
+      "title": "Methodologies",
+      "technologies": ["SCRUM", "Kanban"]
+    }
+  ]
+}
