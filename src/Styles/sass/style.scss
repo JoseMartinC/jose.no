@@ -34,19 +34,30 @@
         height: 100%;
       }
     }
+    > span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
     .modal {
       border-radius: 3px;
       &.blue + div { background-color: rgba($blue, 0.6) !important; }
       &.red + div { background-color: rgba($red, 0.6) !important; }
       &.orange + div { background-color: rgba($orange, 0.6) !important; }
       &.black + div { background-color: rgba($black, 0.6) !important; }
-      @media (max-width: $mobile) {
+      @media (max-width: $phablet) {
         width: 100% !important;
       }
       > div {
         display: flex;
         border-radius: 3px;
         overflow: hidden;
+        max-height: 100%;
         .cardLeft {
           width: 120px;
           flex-shrink: 0;
@@ -75,10 +86,11 @@
           padding: 24px;
           line-height: 2;
           text-align: justify;
-          max-height: 800px;
+          max-height: calc(100vh - 60px);
           overflow: scroll;
-          @media (max-width: $mobile) {
+          @media (max-width: $phablet) {
             height: 100vh;
+            max-height: none;
           }
           h1 {
             font-size: 2em;

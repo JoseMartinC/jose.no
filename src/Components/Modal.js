@@ -1,20 +1,35 @@
 import React, { Component } from 'react'
-import Boron from 'boron/OutlineModal'
+import Boron from 'boron/FadeModal'
 
 class Modal extends Component {
+  componentDidMount = () => {
+    let modal = this.refs.modal
+    window.addEventListener('popstate', () => {
+      if (!document.location.hash && !modal.state.hidden) {
+        modal.hide()
+      }
+    })
+  }
   showModal = () => {
     this.refs.modal.show()
   }
   hideModal = () => {
-    this.refs.modal.hide()
+    document.location.hash = ''
   }
   render () {
+    let modalStyle = {
+      width: '600px',
+      position: null,
+      transform: null,
+      top: null,
+      left: null
+    }
     return (
       <div className="modalComponent">
-        <a className="thumbnail" onClick={this.showModal}>
+        <a href={`#${this.props.title.replace(/ /g, '')}`} className="thumbnail" onClick={ this.showModal }>
           <img src={this.props.img} role="presentation" />
         </a>
-        <Boron className={'modal ' + this.props.color}  ref="modal" keyboard={ null } modalStyle={{ width: '600px' }}>
+        <Boron className={'modal ' + this.props.color}  ref="modal" keyboard={ null } modalStyle={ modalStyle } closeOnClick={ false }>
           <div className={'cardLeft ' + this.props.color}>
             <img src={this.props.img} role="presentation" />
           </div>
