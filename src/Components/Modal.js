@@ -29,7 +29,7 @@ class Modal extends Component {
         <a href={`#${this.props.title.replace(/ /g, '')}`} className="thumbnail" onClick={ this.showModal }>
           <img src={this.props.img} role="presentation" />
         </a>
-        <Boron className={'modal ' + this.props.color}  ref="modal" keyboard={ null } modalStyle={ modalStyle } closeOnClick={ false }>
+        <Boron className={'modal ' + this.props.color}  ref="modal" modalStyle={ modalStyle } closeOnClick={ false }>
           <div className={'cardLeft ' + this.props.color}>
             <img src={this.props.img} role="presentation" />
           </div>
