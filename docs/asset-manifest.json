@@ -1,9 +1,15 @@
 {
-  "main.css": "static/css/main.76476af8.css",
-  "main.css.map": "static/css/main.76476af8.css.map",
-  "main.js": "static/js/main.d2c57797.js",
-  "main.js.map": "static/js/main.d2c57797.js.map",
-  "static/media/upv-logo.png": "static/media/upv-logo.7e51446e.png",
-  "static/media/vimond.png": "static/media/vimond.9cf46fa2.png",
-  "static/media/yo.jpg": "static/media/yo.08379fb2.jpg"
+  "files": {
+    "main.js": "/static/js/main.3c1da0e6.js",
+    "main.css": "/static/css/main.b69fd878.css",
+    "static/media/upv-logo.png": "/static/media/upv-logo.4b01b81e06e82863b2f8.png",
+    "static/media/yo.jpg": "/static/media/yo.dfe940e51bc63d4338c7.jpg",
+    "index.html": "/index.html",
+    "main.3c1da0e6.js.map": "/static/js/main.3c1da0e6.js.map",
+    "main.b69fd878.css.map": "/static/css/main.b69fd878.css.map"
+  },
+  "entrypoints": [
+    "static/js/main.3c1da0e6.js",
+    "static/css/main.b69fd878.css"
+  ]
 }

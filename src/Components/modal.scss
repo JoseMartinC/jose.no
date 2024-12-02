@@ -1,0 +1,207 @@
+@import '../globals';
+
+.modal-component {
+  margin: 0 .5rem;
+  @media (max-width: 480px) {
+    margin: .5rem 0;
+  }
+
+  .thumbnail {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, 0.2)));
+    transition: transform .3s ease-in-out;
+    &:hover {
+      @media (min-width: 600px) {
+        transform: scale(1.1);
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.blue {
+      background-color: transparentize($blue, .5);
+    }
+    &.black {
+      background-color: transparentize($gray, .5);
+    }
+    &.red {
+      background-color: transparentize($red, .5);
+    }
+    &.orange {
+      background-color: transparentize($orange, .5);
+    }
+
+    .modal {
+      background-color: white;
+      border-radius: .5rem;
+      width: 600px;
+      max-height: calc(100% - 5rem);
+      overflow: auto;
+      display: grid;
+      grid-template-columns: 120px auto;
+      position: relative;
+
+      @media (max-width: $mobile) {
+        max-height: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr;
+      }
+
+      .left-panel {
+        &.blue {
+          background-color: $blue
+        }
+        &.black {
+          background-color: $gray
+        }
+        &.red {
+          background-color: $red
+        }
+        &.orange {
+          background-color: $orange
+        }
+        @media (max-width: $mobile) {
+          display: none;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          border-bottom: solid 1px white;
+        }
+      }
+      .right-panel {
+        padding: 2rem;
+        text-align: justify;
+
+        h1 {
+          font-size: 2rem;
+          font-weight: normal;
+          line-height: 1;
+          margin-top: 0;
+          &.blue {
+            color: $blue
+          }
+          &.black {
+            color: $gray
+          }
+          &.red {
+            color: $red
+          }
+          &.orange {
+            color: $orange
+          }
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        h3 {
+          margin: 0;
+          font-size: 1rem;
+          display: inline;
+        }
+        .line {
+          margin: 0 0 2rem 2rem;
+          @media (max-width: $mobile) {
+            margin-left: 0;
+          }
+          p {
+            margin: 0;
+            font-size: 0.9rem;
+          }
+        }
+        .experience {
+          display: grid;
+          grid-template-columns: auto 1fr;
+          margin-bottom: 2rem;
+          font-size: .9rem;
+          @media (max-width: $mobile) {
+            grid-template-columns: 1fr;
+            width: 100%;
+          }
+          .right {
+            text-align: right;
+            @media (max-width: $mobile) {
+              text-align: left;
+              h2 {
+                font-weight: normal;
+              }
+            }
+          }
+          h2 {
+            font-size: 1rem;
+            margin: 0;
+            a {
+              text-decoration: none;
+              color: black;
+              &:visited {
+                color: black;
+              }
+              &:hover {
+                color: $orange;
+              }
+            }
+          }
+        }
+        .skill {
+          h2 {
+            margin-bottom: 0;
+          }
+          ul {
+            margin-left: 2rem;
+            padding: 0;
+            list-style: none;
+            @media (max-width: $mobile) {
+              margin-left: 0;
+            }
+            li {
+              display: inline-block;
+              margin-right: .7rem;
+            }
+          }
+        }
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      cursor: pointer;
+
+      &.blue {
+        fill: $blue
+      }
+      &.black {
+        fill: $gray
+      }
+      &.red {
+        fill: $red
+      }
+      &.orange {
+        fill: $orange
+      }
+    }
+  }
+}

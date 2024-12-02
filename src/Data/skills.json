@@ -1,41 +1,33 @@
 {
-  "text": "I love to learn, and it matches perfectly with the never ending learning process of engineering, so thanks to this combination, I've studied a lot of things in my life, some useful, some not... But if I had to find a set of keywords of what I've been doing lately, it would be something like this:",
+  "text": "I love to learn, and it matches perfectly with the never ending learning process of engineering, so thanks to this combination, I've studied a lot of things in my life, some useful, some interesting... But if I had to find a set of keywords of what I've been doing lately, it would be something like this:",
   "skills": [
     {
       "title": "Frontend",
-      "technologies": ["HTML", "CSS/SCSS", "JavaScript", "React", "Riot", "Angular", "Backbone"]
+      "technologies": ["TypeScript", "React", "Webpack", "PlayWright", "Tailwind"]
+    },
+    {
+      "title": "Mobile",
+      "technologies": ["React Native"]
     },
     {
       "title": "Backend",
-      "technologies": ["Node", "Java", "PHP"]
-    },
-    {
-      "title": "Design",
-      "technologies": ["Illustrator", "Photoshop", "Balsamiq", "Zeplin"]
-    },
-    {
-      "title": "Dataflow",
-      "technologies": ["Flux/Redux", "SQL", "MongoDB"]
-    },
-    {
-      "title": "3D",
-      "technologies": ["OpenGL/WebGL", "SketchUp", "Blender", "Rhinoceros"]
-    },
-    {
-      "title": "Industrial Computing",
-      "technologies": ["CNC", "CAD/CAM"]
+      "technologies": ["Node", "Golang", "Python"]
     },
     {
       "title": "DevOps",
-      "technologies": ["Amazon Web Services", "Docker", "Heroku"]
+      "technologies": ["Amazon Web Services", "Terraform", "Serverless"]
     },
     {
-      "title": "QA",
-      "technologies": ["Selenium", "Chai", "Mocha"]
+      "title": "Design",
+      "technologies": ["Figma", "Sketch", "Illustrator", "Photoshop"]
     },
     {
-      "title": "Methodologies",
-      "technologies": ["SCRUM", "Kanban"]
+      "title": "3D",
+      "technologies": ["OpenGL/WebGL", "Fusion360", "SketchUp"]
+    },
+    {
+      "title": "Industrial Computing",
+      "technologies": ["Cura", "G-Code", "CNC", "CAD/CAM"]
     }
   ]
 }

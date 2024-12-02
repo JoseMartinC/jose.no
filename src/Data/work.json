@@ -1,30 +1,37 @@
 {
   "works": [
     {
+      "company": "NewStore",
+      "url": "https://www.newstore.com/",
+      "role": "Head of Engineering, Staff Engineer",
+      "date": "Jan. 2021 - Present",
+      "place": "Remote"
+    },
+    {
       "company": "Vimond",
-      "url": "http://www.vimond.com/",
-      "role": "Software Engineer",
-      "date": "June 2015 - Presently",
+      "url": "https://www.vimond.com/",
+      "role": "Staff Engineer, Tech Lead",
+      "date": "Jun. 2015 - Jan. 2021",
       "place": "Bergen, Norway"
     },
     {
       "company": "TV 2",
-      "url": "http://www.tv2.no/",
+      "url": "https://www.tv2.no/",
       "role": "Software Engineer",
-      "date": "March 2011 - June 2015",
+      "date": "Mar. 2011 - Jun. 2015",
       "place": "Bergen, Norway"
     },
     {
       "company": "AGR",
-      "url": "http://www.agrfoodmarketing.com/",
+      "url": "https://www.agrfoodmarketing.com/",
       "role": "ICT Manager",
-      "date": "May 2009 – July 2011",
+      "date": "May. 2009 – Jul. 2011",
       "place": "Valencia, Spain"
     },
     {
       "company": "BSO",
       "role": "Manager",
-      "date": "Nov. 2008 – April 2009",
+      "date": "Nov. 2008 – Apr. 2009",
       "place": "Valencia, Spain"
     }
   ]

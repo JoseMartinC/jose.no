@@ -1,12 +1,12 @@
 {
   "degrees": [
     {
-      "title": "Master Degree in Computer Science Engineering",
-      "description": "(Industrial Computing specialization) at Polytechnic University of Valencia with First Class Honours in the Final Thesis."
+      "title": "MSc in Computer Science Engineering",
+      "description": "Specialized in Industrial Computing at Polytechnic University of Valencia with First Class Honours in the Final Thesis."
     },
     {
-      "title": "Advanced Technician Degree in Web Programming",
-      "description": "(LAMP) at European Institute of Business Studies (INESEM) with 91.29% points average."
+      "title": "Advanced Technician in Web 2.0 Programming",
+      "description": "at European Institute of Business Studies (INESEM) with 91.29% points average."
     },
     {
       "title": "Master Course in Digital Marketing and Communication",
@@ -16,23 +16,19 @@
   "languages": [
     {
       "name": "Español",
-      "text": "mi lengua nativa, lo cual es evidente siendo español."
+      "text": "mi lengua materna."
     },
     {
       "name": "Valencià",
-      "text": "tinc la gran sort de parlar la llengua de la regió en la que vaix nàixer, i compartir-la amb catalans i mallorquins."
+      "text": "la llengua de la regió en la que vaix nàixer, i compartir-la amb catalans i mallorquins."
     },
     {
       "name": "English",
-      "text": "which is taking over my daily live... This is so that I'm forgetting my Spanish! Grrr..."
+      "text": "which has taken over as my main language... This is so that I'm forgetting my Spanish! Grrr..."
     },
     {
       "name": "Norsk",
-      "text": "etter mange år i Bergen, eg tror eg kan norsk ganske bra! Det forsatt litt komplisert med uttaler (og ekstremt vanskelig å forstå trøndersk), men eg skal snart!"
-    },
-    {
-      "name": "Fraçais",
-      "text": "cest très difficile parler français pour moi maintenant, mais je eu un niveau de base..."
+      "text": "Selv om det er litt rustent siden jeg flyttet tilbake til Spania, etter å ha bodd i Bergen i over 10 år, tror jeg at jeg kan norsk ganske bra!"
     }
   ]
 }

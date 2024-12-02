@@ -1,0 +1,30 @@
+@import 'globals';
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  line-height: 2;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-wrapper {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
